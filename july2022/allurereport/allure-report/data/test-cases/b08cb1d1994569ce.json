@@ -1,0 +1,2414 @@
+{
+  "uid" : "b08cb1d1994569ce",
+  "name" : "Fill in Login Page",
+  "fullName" : "Fill in Login Page",
+  "historyId" : "ade596706d9edb1e3bfdd5b0e344012c",
+  "time" : {
+    "start" : 1651835766595,
+    "stop" : 1651835857877,
+    "duration" : 91282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://qa.dayforce.com/root/MyDayforce/MyDayforce.aspx",
+      "time" : {
+        "start" : 1651835740038,
+        "stop" : 1651835766593,
+        "duration" : 26555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://qa.dayforce.com/root/MyDayforce/MyDayforce.aspx",
+      "time" : {
+        "start" : 1651835766610,
+        "stop" : 1651835767400,
+        "duration" : 790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #MainContent_loginUI_lblCompanyName",
+      "time" : {
+        "start" : 1651835767400,
+        "stop" : 1651835767415,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get body",
+      "time" : {
+        "start" : 1651835767415,
+        "stop" : 1651835767417,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1651835767417,
+        "stop" : 1651835767455,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "xpath //input[@id=\"txtCompanyName\"]",
+      "time" : {
+        "start" : 1651835767456,
+        "stop" : 1651835767459,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type 863qa11301",
+      "time" : {
+        "start" : 1651835767459,
+        "stop" : 1651835767663,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1651835767663,
+        "stop" : 1651835767676,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #txtUserName",
+      "time" : {
+        "start" : 1651835767676,
+        "stop" : 1651835767681,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type cadmin",
+      "time" : {
+        "start" : 1651835767682,
+        "stop" : 1651835767815,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1651835767815,
+        "stop" : 1651835767825,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #txtUserPass",
+      "time" : {
+        "start" : 1651835767825,
+        "stop" : 1651835767832,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type 1",
+      "time" : {
+        "start" : 1651835767832,
+        "stop" : 1651835767914,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "tab",
+      "time" : {
+        "start" : 1651835767914,
+        "stop" : 1651835767927,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #MainContent_loginUI_cmdLogin",
+      "time" : {
+        "start" : 1651835767927,
+        "stop" : 1651835767932,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "focused",
+      "time" : {
+        "start" : 1651835767932,
+        "stop" : 1651835767939,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1651835767939,
+        "stop" : 1651835768061,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "form sub --submitting form--",
+      "time" : {
+        "start" : 1651835768060,
+        "stop" : 1651835768060,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "form sub --submitting form--",
+      "time" : {
+        "start" : 1651835768061,
+        "stop" : 1651835768061,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1651835768061,
+        "stop" : 1651835768061,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "new url https://qa.dayforce.com/863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Common/",
+      "time" : {
+        "start" : 1651835768061,
+        "stop" : 1651835809037,
+        "duration" : 40976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://app.launchdarkly.com/sdk/goals/613b8fada16fb225f0e7d1f0",
+      "time" : {
+        "start" : 1651835809035,
+        "stop" : 1651835809035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://app.launchdarkly.com/sdk/evalx/613b8fada16fb225f0e7d1f0/users/eyJrZXkiOiIxMDk1IiwiY3VzdG9tIjp7InJvbGUiOlsiMTAwMSJdLCJjbGllbnQiOiI4NjNxYTExMzAxIiwiZXZlcmVzdEVuYWJsZWQiOmZhbHNlfX0",
+      "time" : {
+        "start" : 1651835809035,
+        "stop" : 1651835809035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://cdn.cookielaw.org/consent/d9f5989b-584d-4b66-a369-fd5fbdc89b8e-test/d9f5989b-584d-4b66-a369-fd5fbdc89b8e-test.json",
+      "time" : {
+        "start" : 1651835809035,
+        "stop" : 1651835809035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "time" : {
+        "start" : 1651835809035,
+        "stop" : 1651835809035,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://events.launchdarkly.com/events/diagnostic/613b8fada16fb225f0e7d1f0",
+      "time" : {
+        "start" : 1651835809036,
+        "stop" : 1651835809036,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #onetrust-policy-text",
+      "time" : {
+        "start" : 1651835809036,
+        "stop" : 1651835809036,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<p#onetrust-policy-text>** to be **visible**",
+      "time" : {
+        "start" : 1651835809036,
+        "stop" : 1651835809036,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://cdn.cookielaw.org/consent/d9f5989b-584d-4b66-a369-fd5fbdc89b8e-test/3dca0523-70a6-4a49-9588-1ca64559e8d9/en.json",
+      "time" : {
+        "start" : 1651835809036,
+        "stop" : 1651835809036,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/v2/otPcCenter.json",
+      "time" : {
+        "start" : 1651835809037,
+        "stop" : 1651835809037,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/otFlat.json",
+      "time" : {
+        "start" : 1651835809037,
+        "stop" : 1651835809037,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/6.25.0/assets/otCommonStyles.css",
+      "time" : {
+        "start" : 1651835809037,
+        "stop" : 1651835809037,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #onetrust-accept-btn-handler",
+      "time" : {
+        "start" : 1651835809037,
+        "stop" : 1651835809455,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button#onetrust-accept-btn-handler>** to be **visible**",
+      "time" : {
+        "start" : 1651835809455,
+        "stop" : 1651835809455,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1651835809455,
+        "stop" : 1651835809587,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "post https://ceridian-privacy.my.onetrust.com/request/v1/consentreceipts",
+      "time" : {
+        "start" : 1651835809586,
+        "stop" : 1651835809586,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #dayforce_Dialog_1",
+      "time" : {
+        "start" : 1651835809588,
+        "stop" : 1651835847370,
+        "duration" : 37782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<div#dayforce_Dialog_1.dijitDialog.dayforceDialog.dijitDialogFixed>** to be **visible**",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 202 https://events.launchdarkly.com/events/bulk/613b8fada16fb225f0e7d1f0",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://ceridian-privacy.my.onetrust.com/request/v1/consentreceipts",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Timeout/SendHeartbeat",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetClientSessionData?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetAppSettings?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/Framework/Cache/GetAllBaseLocalizations?culture=en-CA&opLoc=INT&showKeys=False&v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Main/GetAllOverrideLocalizations",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/availableLocales.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/ca-gregorian.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/numbers.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/likelySubtags.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/timeData.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/weekData.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/numberingSystems.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/availableLocales.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/ca-gregorian.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/numbers.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/currencies.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/timeZoneNames.json",
+      "time" : {
+        "start" : 1651835847367,
+        "stop" : 1651835847367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/main/en-CA/dateFields.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/likelySubtags.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/timeData.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/weekData.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/currencyData.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/numberingSystems.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://qastatic.dayforce.com/libraries/cldr-data/34.0.1/supplemental/plurals.json",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/ClientProperty/GetClientProperties?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/EntitySelector.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/FilteringSelector.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/OverrideLabelStrings.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Dialog.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetFilterOperationTypes",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Org/GetUserOrg/",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetUserRoles?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/WFMCommon/Common/GetRoleFeaturesParameters?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/BuildDetails?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetCurrentNamespace?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/UserPreference/GetUserPreferences",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/SmartTracing/SmartTracingUser/IsSmartTracingUser?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/FeatureMenu.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/FeatureMenuItem.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/FeatureMenuOrgSelector.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/EntityTreeSelector.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/CheckBox.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/TreeNode.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/EntityPicker.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/HomeButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/FeatureToolbar.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/ApprovalsButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/MessageButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847368,
+        "stop" : 1651835847368,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/FeatureToolbarActionMenu.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/GlobalSearchButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/HelpButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/EmployeeProfileMessage.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/WhatsNewDialog.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/NewsContent.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/TabButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Image.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/UserActionsMenu.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/RadioButton.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/SkipLinksBar.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetCurrentNamespace",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetSitePurposeBanner",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Timeout/SendHeartbeat",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/TimeoutCounter.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetAccountRecoveryAssistantProcess?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/AccountRecoveryAssistant/ARAStartPage.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/SummaryPane.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/ListboxSelector.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847369,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835847369,
+        "stop" : 1651835847370,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/FilteringSelect.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/HR/Account/GetSecurityQuestionsARA",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/ThirdPartyServiceDisplay.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/EmbeddedForm.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/EmbeddedGuidedProcess.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/FormCollectionHeader.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Form/FormDialog.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Client/UserActionsMenuItem.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/RolePicker.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847370,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "find #Framework_UI_Form_RadioButton_5",
+      "time" : {
+        "start" : 1651835847370,
+        "stop" : 1651835847400,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #Framework_UI_Form_RadioButton_5",
+      "time" : {
+        "start" : 1651835847401,
+        "stop" : 1651835847441,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1651835847441,
+        "stop" : 1651835847636,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait 5000",
+      "time" : {
+        "start" : 1651835847636,
+        "stop" : 1651835852644,
+        "duration" : 5008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835852644,
+        "stop" : 1651835852644,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #Button_3_label",
+      "time" : {
+        "start" : 1651835852644,
+        "stop" : 1651835852695,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1651835852695,
+        "stop" : 1651835852859,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://qa.dayforce.com/863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Main/SetUserAndRole",
+      "time" : {
+        "start" : 1651835852859,
+        "stop" : 1651835852859,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait 5000",
+      "time" : {
+        "start" : 1651835852859,
+        "stop" : 1651835857866,
+        "duration" : 5007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetAppSettings",
+      "time" : {
+        "start" : 1651835857865,
+        "stop" : 1651835857865,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetAnnouncements?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/Announcement.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetUnverifiedEmail?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/EmailNotice.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetAddEmail?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/StaticViews/Framework/AddEmailNotice.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/WFMCommon/Common/GetRoleFeaturesParameters",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Main/GetFeaturesAndAuthorizations",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/IsClientLogoAvailable",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/MessageCenter/UpdateFolderTotals",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Info/GetHelpInfo",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Employee/GetEmployeeById",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Startup/GetUserRoles",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://app.launchdarkly.com/sdk/goals/613b8fada16fb225f0e7d1f0",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/Employee/UpdateEmployeeProfileMessage",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/PlatformSvc/Avatar/GetDisplayUserProfileImageProperty/",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/PlatformSvc/Avatar/GetHaloColorHex?uid=1095",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/PlatformSvc/Avatar/GetUserDisplayName/?uid=1095",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 200 https://app.launchdarkly.com/sdk/evalx/613b8fada16fb225f0e7d1f0/users/eyJrZXkiOiIxMDk1IiwiY3VzdG9tIjp7InJvbGUiOlsiMTAwMSJdLCJjbGllbnQiOiI4NjNxYTExMzAxIiwiZXZlcmVzdEVuYWJsZWQiOmZhbHNlfX0",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET 304 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/PlatformSvc/Avatar/GetProfileImage/?uid=1095",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 https://col.eum-appdynamics.com/eumcollector/beacons/browser/v1/AD-AAB-AAC-HJS/adrum",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST 200 /863/MyDayforce/u/szVM1SdTK0yd6CjbY-7c1A/Framework/ProfileImage/GetFilteredUserIds",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST https://events.launchdarkly.com/events/bulk/613b8fada16fb225f0e7d1f0",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /863/MyDayforce/StaticViews/Learning/LearningModal.html?v=63.0.0.12516",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "waitUntil {}",
+      "time" : {
+        "start" : 1651835857866,
+        "stop" : 1651835857872,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 156
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "DF before test scenario"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b08cb1d1994569ce.json",
+  "parameterValues" : [ ]
+}

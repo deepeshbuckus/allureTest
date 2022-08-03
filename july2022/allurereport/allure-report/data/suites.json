@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "DF before test scenario",
+    "children" : [ {
+      "name" : "Fill in Login Page",
+      "uid" : "b08cb1d1994569ce",
+      "parentUid" : "c4b185377c9401cde1eac583fa6ff81e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651835766595,
+        "stop" : 1651835857877,
+        "duration" : 91282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check Accessibility on Dayforce Login Page",
+      "uid" : "9351713083c54a68",
+      "parentUid" : "c4b185377c9401cde1eac583fa6ff81e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1651835858011,
+        "stop" : 1651835883160,
+        "duration" : 25149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c4b185377c9401cde1eac583fa6ff81e"
+  } ]
+}

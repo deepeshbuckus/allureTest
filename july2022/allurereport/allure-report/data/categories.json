@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "3 accessibility violations were detected: expected 3 to equal 0",
+      "children" : [ {
+        "name" : "Check Accessibility on Dayforce Login Page",
+        "uid" : "9351713083c54a68",
+        "parentUid" : "5d09b9ebc66f6d692d318efd0cd258d1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651835858011,
+          "stop" : 1651835883160,
+          "duration" : 25149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d09b9ebc66f6d692d318efd0cd258d1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

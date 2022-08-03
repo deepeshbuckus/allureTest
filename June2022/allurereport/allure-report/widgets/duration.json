@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b08cb1d1994569ce",
+  "name" : "Fill in Login Page",
+  "time" : {
+    "start" : 1651835766595,
+    "stop" : 1651835857877,
+    "duration" : 91282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9351713083c54a68",
+  "name" : "Check Accessibility on Dayforce Login Page",
+  "time" : {
+    "start" : 1651835858011,
+    "stop" : 1651835883160,
+    "duration" : 25149
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 06 15:16:06 MUT 2022","Fri May 06 15:17:37 MUT 2022","91282","","DF before test scenario","","","","Fill in Login Page",""
+"failed","Fri May 06 15:17:38 MUT 2022","Fri May 06 15:18:03 MUT 2022","25149","","DF before test scenario","","","","Check Accessibility on Dayforce Login Page",""
